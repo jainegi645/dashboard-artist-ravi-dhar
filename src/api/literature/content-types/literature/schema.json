@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "literatures",
+  "info": {
+    "singularName": "literature",
+    "pluralName": "literatures",
+    "displayName": "Literature"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "default": "No Title "
+    },
+    "CoverImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "Content": {
+      "type": "richtext",
+      "required": true
+    },
+    "Filter": {
+      "type": "enumeration",
+      "enum": [
+        "Hindi",
+        "English"
+      ],
+      "required": true,
+      "default": "English"
+    }
+  }
+}

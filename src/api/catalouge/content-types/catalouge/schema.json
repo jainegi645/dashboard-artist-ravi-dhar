@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "home_carousels",
+  "collectionName": "catalouges",
   "info": {
-    "singularName": "home-carousel",
-    "pluralName": "home-carousels",
-    "displayName": "Homecarousel",
+    "singularName": "catalouge",
+    "pluralName": "catalouges",
+    "displayName": "Catalouge",
     "description": ""
   },
   "options": {
@@ -12,13 +12,16 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "carouselImage": {
+    "image": {
       "type": "media",
       "multiple": false,
       "required": true,
       "allowedTypes": [
         "images"
       ]
+    },
+    "title": {
+      "type": "string"
     }
   }
 }

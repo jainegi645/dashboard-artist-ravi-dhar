@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exihibitions",
+  "info": {
+    "singularName": "exihibition",
+    "pluralName": "exihibitions",
+    "displayName": "Exihibition"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
