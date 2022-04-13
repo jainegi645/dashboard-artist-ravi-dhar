@@ -22,6 +22,14 @@
     },
     "title": {
       "type": "string"
+    },
+    "size": {
+      "type": "string",
+      "required": true
+    },
+    "medium": {
+      "type": "string",
+      "required": true
     }
   }
 }

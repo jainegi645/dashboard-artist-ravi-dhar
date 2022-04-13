@@ -4,7 +4,8 @@
   "info": {
     "singularName": "exihibition",
     "pluralName": "exihibitions",
-    "displayName": "Exihibition"
+    "displayName": "Exihibition",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,14 +16,22 @@
       "type": "string"
     },
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false,
+      ]
+    },
+    "size": {
+      "type": "string",
+      "required": true
+    },
+    "medium": {
+      "type": "string",
       "required": true
     }
   }
