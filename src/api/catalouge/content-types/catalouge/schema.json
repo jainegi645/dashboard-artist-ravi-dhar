@@ -30,6 +30,13 @@
     "medium": {
       "type": "string",
       "required": true
+    },
+    "filter": {
+      "type": "enumeration",
+      "enum": [
+        "paintings",
+        "portraits"
+      ]
     }
   }
 }
