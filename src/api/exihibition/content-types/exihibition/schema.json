@@ -33,6 +33,10 @@
     "medium": {
       "type": "string",
       "required": true
+    },
+    "Artist": {
+      "type": "string",
+      "required": true
     }
   }
 }
