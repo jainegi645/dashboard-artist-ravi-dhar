@@ -4,7 +4,8 @@
   "info": {
     "singularName": "literature",
     "pluralName": "literatures",
-    "displayName": "Literature"
+    "displayName": "Literature",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,12 +18,12 @@
       "default": "No Title "
     },
     "CoverImage": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": false
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "Content": {
       "type": "richtext",
